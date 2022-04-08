@@ -1,0 +1,175 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 75%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #00072D;
+    padding: 10px 0;
+    overflow: hidden;
+    
+}
+
+#logo{
+    color: white;
+    float: left;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.wrapper1{
+    background-color: #22295B;
+    padding: 180px 0px;
+    text-align: center;
+}
+
+#judulshowcase{
+    color: white;
+    font-size: 50px;
+    padding: 0px;
+    
+}
+
+#isishowcase{
+    color: white;
+    font-size: 25px;
+    padding: 0px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+#gariswrapper1{
+    width: 200px;
+}
+
+.wrapper2{
+    background-color: #2B0B54;
+    padding: 120px 0px;
+    color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.deskripsi{
+    font-size: 20px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Source Serif Pro', serif;
+
+}
+.jeda{
+    border: 0px;
+   height: 100px;
+   align-items: center;
+   display: flex;
+}
+
+nav{
+    float: right;
+}
+
+.fh{
+    color: white;
+    display: inline-block;
+    width: 100px;
+    padding: 0px;
+    text-align: right;
+    text-decoration: none;
+}
+
+#sosmed{
+    background-color: #22295B;
+    padding: 50px 0px;
+    text-align: center;
+
+    font-size: 18px;
+    color: white;
+
+
+}
+
+footer {
+    background-color: #00072D;
+    padding: 15px;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.jeda2{
+    border: 0px;
+   height: 50px;
+   align-items: center;
+   display: flex;
+}
+
+
+
+#isi{
+ 
+    margin: 0 auto;
+    
+    font-family: 'Source Serif Pro', serif;
+    
+}
+
+.box{
+    
+    padding-left: 30%;
+    padding-right: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.gambarkiri{
+    text-align: center;
+}
+
+.isikiri{
+    padding-left: 5%;
+    font-size: 18px;
+    text-align: left;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.gambarkanan{
+    text-align: center;
+}
+
+.isikanan{
+    padding-right: 5%;
+    font-size: 18px;
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+
+.texttengah{
+    
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.linksosmed{
+    color: white;
+    display: inline-block;
+    width: 500px;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#kontak{
+    font-family: 'Libre Baskerville', serif;
+
+}
